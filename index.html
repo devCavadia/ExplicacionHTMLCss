@@ -4,6 +4,7 @@
     <meta charset="UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="./styles/estilos.css"/>
     <title>Hola, este es el titulo</title>
     <description>Esta es la descripcion</description>
 </head>
@@ -11,8 +12,8 @@
     <header>
         <h3>Esto es una lista ordenada</h3>
         <ol>
-            <li>Elemento 1</li>
-            <li>Elemento 2</li>
+            <li class="textoGris fondoRojo textoGrandeNegrita">Elemento 1</li>
+            <li class="textoAzul fondoAmarillo">Elemento 2</li>
             <li>Elemento 3</li>
             <li>Elemento 4</li>
             <li>Elemento 5</li>
@@ -24,7 +25,7 @@
             <li>Elemento 4</li>
             <li>Elemento 5</li>
         </ul>
-        <div>
+        <div class="textoGrandeNegrita textoAzul">
             Hola esto es un div
         </div>
     </header>
@@ -40,19 +41,46 @@
             <a href="./formulario.html">Este es un link de formulario</a>
             <article>
                 <h3>Parrafo 1</h3>
-                <p>
+                <p class="textoGris parrafoAngosto">
                     Esto es un parrafo
                 </p>
                 <h3>Parrafo 2</h3>
-                <p>
+                <p class="textoAzul">
+                    Esto es otro parrafo
+                </p>
+                <h3>Parrafo 3</h3>
+                <p id="parrafo3">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos veniam impedit porro accusantium! Fugit perferendis obcaecati iusto dolor quos exercitationem velit totam modi dolorum. Id aperiam voluptas atque inventore repellendus.
                 </p>
                 <span>Este es un texto corto</span>
             </article>
-            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Foto de un Border Collie"/>
-            <img src="./media/borderCollie.jpg" alt="Foto de un Border Collie"/>
+            <img class="imagenPeq" src="./media/borderCollie.jpg" alt="Foto de un Border Collie"/>
         </section>
-        <section>Seccion 2</section>
+        <section>
+            <div class="contenedorConMargin">
+                <div>Div 1</div>
+                <div>Div 2</div>
+                <div>Div 3</div>
+            </div>
+            <div class="contenedorDivsGrid">
+                <div class="divTest">Div 1</div>
+                <div class="divTest">Div 2</div>
+                <div class="divTest">Div 3</div>
+                <div class="divTest">Div 4</div>
+                <div class="divTest">Div 5</div>
+                <div class="divTest">Div 6</div>
+                <div class="divTest">Div 7</div>
+            </div>
+            <div class="contenedorDivsFlex">
+                <div class="divTest">Div 1</div>
+                <div class="divTest">Div 2</div>
+                <div class="divTest">Div 3</div>
+                <div class="divTest">Div 4</div>
+                <div class="divTest">Div 5</div>
+                <div class="divTest">Div 6</div>
+                <div class="divTest">Div 7</div>
+            </div>
+        </section>
         <section>Seccion 3</section>
     </main>
     <footer>

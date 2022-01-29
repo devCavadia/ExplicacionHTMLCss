@@ -1,0 +1,76 @@
+p{
+    color: green;
+}
+
+h3{
+    color: blue;
+}
+
+a{
+    background-color: red;
+}
+
+#parrafo3{
+    color: salmon;
+}
+
+.textoGris{
+    color: gray;
+}
+
+.textoAzul{
+    color: blue;
+}
+
+.fondoRojo{
+    background-color: red;
+}
+
+.fondoAmarillo{
+    background-color: yellow;
+}
+
+.textoGrandeNegrita{
+    font-size: x-large;
+    font-weight: 900;
+    font-style: italic;
+    font-stretch: expanded;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imagenPeq{
+    height: 300px;
+}
+
+.parrafoAngosto{
+    width: 10px;
+}
+
+.contenedorConMargin{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border: 1px solid red;
+    padding: 20px;
+}
+
+.divTest{
+    border: 1px solid red;
+}
+
+.contenedorDivsGrid{
+    border: 2px solid green;
+    display: grid;
+    grid-template-columns: 30% 30% 40%;
+    grid-template-rows: 50px 50px;
+    margin: 20px;
+}
+
+.contenedorDivsFlex{
+    border: 2px solid green;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
